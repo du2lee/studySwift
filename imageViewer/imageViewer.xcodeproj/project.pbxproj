@@ -13,6 +13,9 @@
 		1FAAFEE7299A0D34007AA926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAFEE5299A0D34007AA926 /* Main.storyboard */; };
 		1FAAFEE9299A0D35007AA926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAFEE8299A0D35007AA926 /* Assets.xcassets */; };
 		1FAAFEEC299A0D35007AA926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAFEEA299A0D35007AA926 /* LaunchScreen.storyboard */; };
+		1FAAFEF6299A0DC2007AA926 /* newJeans_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAFEF3299A0DC1007AA926 /* newJeans_2.jpg */; };
+		1FAAFEF7299A0DC2007AA926 /* newJeans_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAFEF4299A0DC2007AA926 /* newJeans_3.jpg */; };
+		1FAAFEF8299A0DC2007AA926 /* newJeans_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAFEF5299A0DC2007AA926 /* newJeans_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1FAAFEE8299A0D35007AA926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAAFEEB299A0D35007AA926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FAAFEED299A0D35007AA926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAAFEF3299A0DC1007AA926 /* newJeans_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newJeans_2.jpg; sourceTree = "<group>"; };
+		1FAAFEF4299A0DC2007AA926 /* newJeans_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newJeans_3.jpg; sourceTree = "<group>"; };
+		1FAAFEF5299A0DC2007AA926 /* newJeans_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newJeans_1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				1FAAFEE8299A0D35007AA926 /* Assets.xcassets */,
 				1FAAFEEA299A0D35007AA926 /* LaunchScreen.storyboard */,
 				1FAAFEED299A0D35007AA926 /* Info.plist */,
+				1FAAFEF5299A0DC2007AA926 /* newJeans_1.jpg */,
+				1FAAFEF3299A0DC1007AA926 /* newJeans_2.jpg */,
+				1FAAFEF4299A0DC2007AA926 /* newJeans_3.jpg */,
 			);
 			path = imageViewer;
 			sourceTree = "<group>";
@@ -125,8 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAAFEF8299A0DC2007AA926 /* newJeans_1.jpg in Resources */,
 				1FAAFEEC299A0D35007AA926 /* LaunchScreen.storyboard in Resources */,
+				1FAAFEF6299A0DC2007AA926 /* newJeans_2.jpg in Resources */,
 				1FAAFEE9299A0D35007AA926 /* Assets.xcassets in Resources */,
+				1FAAFEF7299A0DC2007AA926 /* newJeans_3.jpg in Resources */,
 				1FAAFEE7299A0D34007AA926 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
