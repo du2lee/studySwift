@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="deK-f3-mPD">
-                                <rect key="frame" x="0.0" y="150" width="393" height="162"/>
+                                <rect key="frame" x="-1" y="59" width="394" height="253"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selected Item:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0K6-dy-2pZ">
@@ -43,9 +43,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="J2D-yq-219" id="9Zw-4W-A70"/>
-                        <outlet property="lblImageFileName" destination="Fdb-Zo-OFQ" id="z8j-MH-8u9"/>
-                        <outlet property="pickImage" destination="deK-f3-mPD" id="BhF-jn-8OR"/>
+                        <outlet property="imageView" destination="J2D-yq-219" id="fJe-n9-PNe"/>
+                        <outlet property="lblImageFileName" destination="Fdb-Zo-OFQ" id="tDp-EW-RqU"/>
+                        <outlet property="pickerImage" destination="deK-f3-mPD" id="APm-a2-iTh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
