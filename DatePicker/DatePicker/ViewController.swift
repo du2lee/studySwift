@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     let interval = 1.0
     var count = 0
     let formatter = DateFormatter()
+    var selectTime = ""
+    var currentTime = ""
     
     @IBOutlet var lblCurrentTime: UILabel!
     @IBOutlet var lblSelectTime: UILabel!
@@ -21,12 +23,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         Timer.scheduledTimer(timeInterval: interval, target: self, selector: timeSelector, userInfo: nil, repeats: true)
-        formatter.dateFormat = "yyyy-MM-dd HH:mm EEE"
+        formatter.dateFormat = "hh:mm aaa"
     }
 
     @IBAction func changeDatePicker(_ sender: UIDatePicker) {
         let datePickerView = sender
-        lblSelectTime.text = "선택시간 : " + formatter.string(from: datePickerView.date)
+        selectTime = formatter.string(from: datePickerView.date)
+        lblSelectTime.text = "선택시간 : " + selectTime
     }
     
     @objc func updateTime() {
@@ -34,7 +37,14 @@ class ViewController: UIViewController {
 //        count += 1
         
         let date = NSDate()
-        lblCurrentTime.text = "현재시간 : " + formatter.string(from: date as Date)
+        currentTime = formatter.string(from: date as Date)
+        lblCurrentTime.text = "현재시간 : " + currentTime
+        
+        if (currentTime == selectTime) {
+            view.backgroundColor = UIColor.red
+        } else{
+            view.backgroundColor = UIColor.white
+        }
     }
     
 }
